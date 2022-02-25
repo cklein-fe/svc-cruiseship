@@ -1,3 +1,8 @@
+import { Chicken } from '../common';
+
 export class Kitchen {
-    cook() { }
+    cook() {
+        const chicken = new Chicken();
+        chicken.salmonella();
+    }
 }
