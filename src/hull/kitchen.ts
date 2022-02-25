@@ -4,5 +4,6 @@ export class Kitchen {
     cook() {
         const chicken = new Chicken();
         chicken.salmonella();
+        chicken.fly();
     }
 }
